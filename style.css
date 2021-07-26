@@ -1,0 +1,50 @@
+/*Reset the default styles*/
+*{margin: 0; padding:0;}
+
+body{
+    font-family:monospace;
+    font-size: 20px;
+}
+
+/*Default class that came with the documentation*/
+.glide{
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+/*Each slide divs*/
+.glide__slide{
+    height: 300px;
+}
+
+/*created an outer wrapper to position output element easily inside the div*/
+#glider_wrapper{
+    position: relative;
+    display:block;
+}
+
+/**make sure the output displays between current and previous slides*/
+#output{
+    position: absolute;
+    top: 40%;
+    left: 55%;
+}
+
+/**Better to use optimized images rather than this option, this is just for example,
+idea is to have all images of same dimensions*/
+img{
+    width:400px;
+    height: 400px;
+}
+/**minor page heading adjustments**/
+#page_heading{
+text-align:center;
+display:block;
+margin: 40px auto;
+}
+#footer{
+    margin-top: 150px;
+    background: rgba(211, 206, 208, 0.432);
+    font-size:16px;
+    padding: 5px 15px;
+}

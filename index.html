@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider Application</title>
+    <link rel="stylesheet" href="dist/css/glide.core.min.css" />
+    <link rel="stylesheet" href="dist/css/glide.theme.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2 id="page_heading">Image Glider (Slider) using Glide.js</h2>
+   <div id="glider_wrapper">
+    <div class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide">
+            <div class="image_container">
+              <img src="images/kid.jpg" alt="kid" />
+            </div>
+          </li>
+          <li class="glide__slide">
+            <div class="image_container">
+              <img src="images/cat.jpg" alt="kid" />
+            </div>
+          </li>
+          <li class="glide__slide">
+            <div class="image_container">
+              <img src="images/woman.jpg" alt="kid" />
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="glide__arrows" data-glide-el="controls">
+        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+          &lt;
+        </button>
+        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+        &gt;
+        </button>
+      </div>
+    </div>
+
+    <div id="output"></div>
+    <footer id="footer"><span>Feel free to use for your projects. Made with ❤ by deepyes02 </footer>
+   </div>
+    <script src="dist/glide.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
