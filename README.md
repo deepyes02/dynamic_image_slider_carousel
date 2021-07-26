@@ -1,7 +1,7 @@
 ## IMAGE CAROUSEL SLIDER USING GLIDE JS ##
 ### Build with <a href="https://glidejs.com/" target="_blank">Glide Js</a> ###
 
-### <a href="#">Live Demo</a>
+### <a href="https://deepyes02.github.io/dynamic_image_slider_carousel/">Live Demo</a>
 
 This is a custom project that implements javascript library Glide Js to make customized carousels. This is one of my projects in Web Design Series that i've included link to in this readme file.
 
